@@ -1,0 +1,9 @@
+3.1 ROS Master : เป็นเหมือนผู้จัดการ จะทำให้รู้ว่าภายในระบบ มีใคร run อยู่บ้าง
+3.2 ROS Topics และ ROS Service : 
+	ROS Topic : ส่งข้อความหากันผ่าน Topic ผลิตข้อมูลตามหน้าที่ของตัวเอง
+ROS Service : เป็นรูปแบบโครงสร้างแบบ request & response 
+3.3 อธิบายความแตกต่างของ Topic และ message :
+	Topic : ข้อความจะถูกส่งผ่านระบบการขนส่งที่มีการ  publish / subscribe
+	Message : สื่อสารกันในรูปแบบของข้อความ
+3.4 อธิบายความแตกต่างในเชิงการใช้งานของ ROS Topic กับ ROS Service :
+ROS Topics ใช้ในการสื่อสารแบบ Publish-Subscribe , ROS Services ใช้ในการสื่อสารแบบ Request-Response

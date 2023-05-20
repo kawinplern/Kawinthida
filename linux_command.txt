@@ -1,0 +1,25 @@
+plern@plern:~/linux_command.txt$ mkdir linux_command.txt
+plern@plern:~/linux_command.txt$ cd linux_command.txt/
+plern@plern:~/linux_command.txt/linux_command.txt$ touch ROBOT_CLASS.txt
+plern@plern:~/linux_command.txt/linux_command.txt$ ls
+ROBOT_CLASS.txt
+plern@plern:~/linux_command.txt/linux_command.txt$ git init
+Initialized empty Git repository in /home/plern/linux_command.txt/linux_command.txt/.git/
+plern@plern:~/linux_command.txt/linux_command.txt$ git add ROBOT_CLASS.txt
+plern@plern:~/linux_command.txt/linux_command.txt$ git add .
+plern@plern:~/linux_command.txt/linux_command.txt$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   ROBOT_CLASS.txt
+
+plern@plern:~/linux_command.txt/linux_command.txt$ git remote add orgin https://github.com/robot-class/final.git
+plern@plern:~/linux_command.txt/linux_command.txt$ git remote -v
+orgin	https://github.com/robot-class/final.git (fetch)
+orgin	https://github.com/robot-class/final.git (push)
+plern@plern:~/linux_command.txt/linux_command.txt$ git switch -c robot-dev
+Switched to a new branch 'robot-dev'
+plern@plern:~/linux_command.txt/linux_command.txt$ 
